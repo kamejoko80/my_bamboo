@@ -1,0 +1,567 @@
+Archive member included because of file (symbol)
+
+c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
+                              obj\release\driver\spiflash.o (__aeabi_uidiv)
+c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+                              obj\release\driver\uart.o (__aeabi_idiv)
+c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_dvmd_tls.o)
+                              c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+                              obj\release\driver\uart.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+FlashProp           0xa0              obj\release\driver\spiflash.o
+pSPI_commands       0x4               obj\release\driver\spiflash.o
+SPI_ID              0x4               obj\release\driver\spiflash.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj\release\driver\spiflash.o
+ .data          0x00000000        0x0 obj\release\driver\spiflash.o
+ .bss           0x00000000        0x0 obj\release\driver\spiflash.o
+ .text.GetFlashProperties
+                0x00000000       0x18 obj\release\driver\spiflash.o
+ .text.SetCurrentFlashBootType
+                0x00000000        0xc obj\release\driver\spiflash.o
+ .text.Endian_Convert
+                0x00000000       0x18 obj\release\driver\spiflash.o
+ .text          0x00000000        0x0 obj\release\driver\gpio.o
+ .data          0x00000000        0x0 obj\release\driver\gpio.o
+ .bss           0x00000000        0x0 obj\release\driver\gpio.o
+ .text.gpio_request
+                0x00000000        0x8 obj\release\driver\gpio.o
+ .text.gpio_free
+                0x00000000        0x4 obj\release\driver\gpio.o
+ .text.gpio_direction_input
+                0x00000000       0x40 obj\release\driver\gpio.o
+ .text.gpio_get_value
+                0x00000000       0x40 obj\release\driver\gpio.o
+ .text.test_gpio
+                0x00000000       0x18 obj\release\driver\gpio.o
+ .text          0x00000000        0x0 obj\release\driver\uart.o
+ .data          0x00000000        0x0 obj\release\driver\uart.o
+ .bss           0x00000000        0x0 obj\release\driver\uart.o
+ .text.ShutdownFFUART
+                0x00000000       0x14 obj\release\driver\uart.o
+ .text.ShutdownALTUART
+                0x00000000       0x14 obj\release\driver\uart.o
+ .text.InitializeFFUART
+                0x00000000       0x88 obj\release\driver\uart.o
+ .text.ReadFFUartLineStatus
+                0x00000000        0xc obj\release\driver\uart.o
+ .text.ReadFFUartReceiveFIFO
+                0x00000000        0xc obj\release\driver\uart.o
+ .text.ReadCharFromFFUart
+                0x00000000       0x1c obj\release\driver\uart.o
+ .text.WriteCharToFFUart
+                0x00000000       0x20 obj\release\driver\uart.o
+ .text.PutStr   0x00000000       0x38 obj\release\driver\uart.o
+ .debug_info    0x00000000      0x2a0 obj\release\driver\uart.o
+ .debug_abbrev  0x00000000      0x1d2 obj\release\driver\uart.o
+ .debug_loc     0x00000000      0x1d7 obj\release\driver\uart.o
+ .debug_aranges
+                0x00000000       0x58 obj\release\driver\uart.o
+ .debug_ranges  0x00000000       0x88 obj\release\driver\uart.o
+ .debug_line    0x00000000      0x20b obj\release\driver\uart.o
+ .debug_str     0x00000000      0x1d6 obj\release\driver\uart.o
+ .comment       0x00000000       0x39 obj\release\driver\uart.o
+ .ARM.attributes
+                0x00000000       0x2b obj\release\driver\uart.o
+ .debug_frame   0x00000000       0xc0 obj\release\driver\uart.o
+ .text          0x00000000        0x0 obj\release\main.o
+ .data          0x00000000        0x0 obj\release\main.o
+ .bss           0x00000000        0x0 obj\release\main.o
+ .text          0x00000000        0x0 obj\release\platform\platformconfig.o
+ .data          0x00000000        0x0 obj\release\platform\platformconfig.o
+ .bss           0x00000000        0x0 obj\release\platform\platformconfig.o
+ .text.PlatformUARTConfig
+                0x00000000       0x34 obj\release\platform\platformconfig.o
+ .text.PlatformAltUARTConfig
+                0x00000000       0x34 obj\release\platform\platformconfig.o
+ .text.InitUartPort
+                0x00000000       0x34 obj\release\platform\platformconfig.o
+ .data.uart_pins
+                0x00000000       0x24 obj\release\platform\platformconfig.o
+ .data.alt_uart_pins
+                0x00000000       0x24 obj\release\platform\platformconfig.o
+ .text          0x00000000        0x0 obj\release\platform\timer.o
+ .data          0x00000000        0x0 obj\release\platform\timer.o
+ .bss           0x00000000        0x0 obj\release\platform\timer.o
+ .text.GetOSCR0
+                0x00000000       0x18 obj\release\platform\timer.o
+ .text.OSCR0IntervalInSec
+                0x00000000       0x10 obj\release\platform\timer.o
+ .text.OSCR0IntervalInMilli
+                0x00000000       0x10 obj\release\platform\timer.o
+ .text.OSCR0IntervalInMicro
+                0x00000000        0xc obj\release\platform\timer.o
+ .text.InitSODTimer
+                0x00000000       0x48 obj\release\platform\timer.o
+ .text.GetSODTimerValue
+                0x00000000        0xc obj\release\platform\timer.o
+ .text.GetElapsedTimeMilliSecFromSOD
+                0x00000000       0x3c obj\release\platform\timer.o
+ .text.GetElapsedTimeUSecFromSOD
+                0x00000000       0x38 obj\release\platform\timer.o
+ .text.GetElapsedTimeSecondsFromSOD
+                0x00000000       0x3c obj\release\platform\timer.o
+ .text.Delay    0x00000000       0x50 obj\release\platform\timer.o
+ .bss.misc_SOD_OSCR0
+                0x00000000        0x4 obj\release\platform\timer.o
+ .debug_info    0x00000000      0x559 obj\release\platform\timer.o
+ .debug_abbrev  0x00000000      0x1a4 obj\release\platform\timer.o
+ .debug_loc     0x00000000      0x39b obj\release\platform\timer.o
+ .debug_aranges
+                0x00000000       0x68 obj\release\platform\timer.o
+ .debug_ranges  0x00000000      0x148 obj\release\platform\timer.o
+ .debug_line    0x00000000      0x1ba obj\release\platform\timer.o
+ .debug_str     0x00000000      0x1f8 obj\release\platform\timer.o
+ .comment       0x00000000       0x39 obj\release\platform\timer.o
+ .ARM.attributes
+                0x00000000       0x2b obj\release\platform\timer.o
+ .debug_frame   0x00000000       0xe8 obj\release\platform\timer.o
+ .text          0x00000000        0x0 obj\release\platform\freq_config.o
+ .data          0x00000000        0x0 obj\release\platform\freq_config.o
+ .bss           0x00000000        0x0 obj\release\platform\freq_config.o
+ .text.CalculateOperatingModePLL
+                0x00000000       0x34 obj\release\platform\freq_config.o
+ .text.GetCurrentOpMode
+                0x00000000       0x6c obj\release\platform\freq_config.o
+ .text.EnableSWDFC
+                0x00000000       0x44 obj\release\platform\freq_config.o
+ .text.SetOpModePLLandDividers
+                0x00000000      0x130 obj\release\platform\freq_config.o
+ .text.InitiateDFC
+                0x00000000       0x94 obj\release\platform\freq_config.o
+ .text.ExecuteDMFC
+                0x00000000       0x34 obj\release\platform\freq_config.o
+ .text.ShutdownPLL2
+                0x00000000       0x18 obj\release\platform\freq_config.o
+ .text.SetVoltage
+                0x00000000      0x244 obj\release\platform\freq_config.o
+ .text.SetOpModeByDividers
+                0x00000000       0xcc obj\release\platform\freq_config.o
+ .text.ConfigureOperatingModeByDividers
+                0x00000000       0xe4 obj\release\platform\freq_config.o
+ .rodata.ConfigureOperatingModeByDividers
+                0x00000000       0x38 obj\release\platform\freq_config.o
+ .text.ConfigureOperatingModeByMode
+                0x00000000       0x1c obj\release\platform\freq_config.o
+ .text.ConfigureOperatingMode
+                0x00000000       0x20 obj\release\platform\freq_config.o
+ .text.DelayEx  0x00000000       0x1c obj\release\platform\freq_config.o
+ .text.SetOperationMode
+                0x00000000       0x10 obj\release\platform\freq_config.o
+ .data.opmode_div_4_1
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_0_3
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_0
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_1
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_2
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_3
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_4
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_5
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_3_1
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_3_2
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_3_3
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_2_1
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_2_2
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_2_3
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .data.opmode_div_2_4
+                0x00000000       0x30 obj\release\platform\freq_config.o
+ .debug_info    0x00000000      0xeaa obj\release\platform\freq_config.o
+ .debug_abbrev  0x00000000      0x360 obj\release\platform\freq_config.o
+ .debug_loc     0x00000000      0xf71 obj\release\platform\freq_config.o
+ .debug_aranges
+                0x00000000       0x88 obj\release\platform\freq_config.o
+ .debug_ranges  0x00000000       0x78 obj\release\platform\freq_config.o
+ .debug_line    0x00000000      0x350 obj\release\platform\freq_config.o
+ .debug_str     0x00000000      0x679 obj\release\platform\freq_config.o
+ .comment       0x00000000       0x39 obj\release\platform\freq_config.o
+ .ARM.attributes
+                0x00000000       0x2b obj\release\platform\freq_config.o
+ .debug_frame   0x00000000      0x174 obj\release\platform\freq_config.o
+ .text          0x00000000        0x0 obj\release\platform\sdram_config.o
+ .data          0x00000000        0x0 obj\release\platform\sdram_config.o
+ .bss           0x00000000        0x0 obj\release\platform\sdram_config.o
+ .text.delay    0x00000000       0x10 obj\release\platform\sdram_config.o
+ .text.ConfigureMemoryController
+                0x00000000      0x244 obj\release\platform\sdram_config.o
+ .rodata.ConfigureMemoryController
+                0x00000000       0xc0 obj\release\platform\sdram_config.o
+ .text.GetDDRSize
+                0x00000000       0x24 obj\release\platform\sdram_config.o
+ .rodata.CSWTCH.6
+                0x00000000       0x24 obj\release\platform\sdram_config.o
+ .rodata.Tim_Table
+                0x00000000      0x118 obj\release\platform\sdram_config.o
+ .debug_info    0x00000000      0x70a obj\release\platform\sdram_config.o
+ .debug_abbrev  0x00000000      0x232 obj\release\platform\sdram_config.o
+ .debug_loc     0x00000000      0x278 obj\release\platform\sdram_config.o
+ .debug_aranges
+                0x00000000       0x30 obj\release\platform\sdram_config.o
+ .debug_ranges  0x00000000       0x20 obj\release\platform\sdram_config.o
+ .debug_line    0x00000000      0x152 obj\release\platform\sdram_config.o
+ .debug_str     0x00000000      0x73a obj\release\platform\sdram_config.o
+ .comment       0x00000000       0x39 obj\release\platform\sdram_config.o
+ .ARM.attributes
+                0x00000000       0x2b obj\release\platform\sdram_config.o
+ .debug_frame   0x00000000       0x6c obj\release\platform\sdram_config.o
+ .text          0x00000000        0x0 obj\release\platform\sdram_support.o
+ .data          0x00000000        0x0 obj\release\platform\sdram_support.o
+ .bss           0x00000000        0x0 obj\release\platform\sdram_support.o
+ .text.ReadBitField
+                0x00000000       0x10 obj\release\platform\sdram_support.o
+ .text.ConfigRecordCount
+                0x00000000        0x8 obj\release\platform\sdram_support.o
+ .text.CheckMemoryReliability
+                0x00000000       0x3c obj\release\platform\sdram_support.o
+ .rodata.str1.4
+                0x00000000       0x38 obj\release\platform\sdram_support.o
+ .debug_info    0x00000000      0x281 obj\release\platform\sdram_support.o
+ .debug_abbrev  0x00000000      0x143 obj\release\platform\sdram_support.o
+ .debug_loc     0x00000000      0x258 obj\release\platform\sdram_support.o
+ .debug_aranges
+                0x00000000       0x30 obj\release\platform\sdram_support.o
+ .debug_ranges  0x00000000       0x20 obj\release\platform\sdram_support.o
+ .debug_line    0x00000000       0xba obj\release\platform\sdram_support.o
+ .debug_str     0x00000000      0x1cd obj\release\platform\sdram_support.o
+ .comment       0x00000000       0x39 obj\release\platform\sdram_support.o
+ .ARM.attributes
+                0x00000000       0x2b obj\release\platform\sdram_support.o
+ .debug_frame   0x00000000       0x48 obj\release\platform\sdram_support.o
+ .data          0x00000000        0x0 obj\release\startup\startup.o
+ .bss           0x00000000        0x0 obj\release\startup\startup.o
+ .data          0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
+ .text          0x00000000      0x150 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000000       0x20 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x18 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000       0x10 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x30 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0xd102ba00                . = 0xd102ba00
+                0xd102ba00                .__main = .
+                0xd102ba00                . = ALIGN (0x4)
+
+.text           0xd102ba00      0x2c0
+ *(.text)
+ .text          0xd102ba00      0x180 obj\release\startup\startup.o
+                0xd102ba00                __main
+                0xd102ba00                ExceptionVectors
+                0xd102ba24                ExecutableVersionInfo
+                0xd102ba60                RedirectionVectors
+ .text          0xd102bb80      0x11c c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
+                0xd102bb80                __aeabi_uidiv
+                0xd102bb80                __udivsi3
+                0xd102bc7c                __aeabi_uidivmod
+ .text          0xd102bc9c        0x4 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_dvmd_tls.o)
+                0xd102bc9c                __aeabi_idiv0
+                0xd102bc9c                __aeabi_ldiv0
+ .text.__stub   0xd102bca0       0x18 linker stubs
+                0xd102bcb8                . = ALIGN (0x4)
+
+.glue_7         0xd102bcc0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0xd102bcc0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0xd102bcc0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0xd102bcc0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.SPI_Read  0xd102bcc0      0x128
+ .text.SPI_Read
+                0xd102bcc0      0x128 obj\release\driver\spiflash.o
+                0xd102bcc0                SPI_Read
+
+.text.SPI_ReadStatus
+                0xd102bde8      0x10c
+ .text.SPI_ReadStatus
+                0xd102bde8      0x10c obj\release\driver\spiflash.o
+                0xd102bde8                SPI_ReadStatus
+
+.text.SPI_WriteEnable
+                0xd102bef4       0x74
+ .text.SPI_WriteEnable
+                0xd102bef4       0x74 obj\release\driver\spiflash.o
+                0xd102bef4                SPI_WriteEnable
+
+.text.SPI_Wipe  0xd102bf68       0xb8
+ .text.SPI_Wipe
+                0xd102bf68       0xb8 obj\release\driver\spiflash.o
+                0xd102bf68                SPI_Wipe
+
+.text.SPI_ReadID
+                0xd102c020       0xa4
+ .text.SPI_ReadID
+                0xd102c020       0xa4 obj\release\driver\spiflash.o
+                0xd102c020                SPI_ReadID
+
+.text.InitializeSPIDevice
+                0xd102c0c8      0x178
+ .text.InitializeSPIDevice
+                0xd102c0c8      0x170 obj\release\driver\spiflash.o
+                0xd102c0c8                InitializeSPIDevice
+ .text.InitializeSPIDevice.__stub
+                0xd102c238        0x8 linker stubs
+
+.text.SPI_page_write
+                0xd102c240      0x10c
+ .text.SPI_page_write
+                0xd102c240      0x10c obj\release\driver\spiflash.o
+                0xd102c240                SPI_page_write
+
+.text.SPI_write_stage1
+                0xd102c34c       0x44
+ .text.SPI_write_stage1
+                0xd102c34c       0x44 obj\release\driver\spiflash.o
+                0xd102c34c                SPI_write_stage1
+
+.text.SPI_write_stage2
+                0xd102c390       0xa4
+ .text.SPI_write_stage2
+                0xd102c390       0xa4 obj\release\driver\spiflash.o
+                0xd102c390                SPI_write_stage2
+
+.text.SPI_Write
+                0xd102c434       0x80
+ .text.SPI_Write
+                0xd102c434       0x80 obj\release\driver\spiflash.o
+                0xd102c434                SPI_Write
+
+.text.SPI_erase_sector
+                0xd102c4b4       0xa4
+ .text.SPI_erase_sector
+                0xd102c4b4       0xa4 obj\release\driver\spiflash.o
+                0xd102c4b4                SPI_erase_sector
+
+.text.SPI_Erase
+                0xd102c558       0x48
+ .text.SPI_Erase
+                0xd102c558       0x48 obj\release\driver\spiflash.o
+                0xd102c558                SPI_Erase
+
+.iplt           0xd102c5a0        0x0
+ .iplt          0x00000000        0x0 obj\release\driver\spiflash.o
+
+.text.gpio_set_value
+                0xd102c5a0       0x48
+ .text.gpio_set_value
+                0xd102c5a0       0x48 obj\release\driver\gpio.o
+                0xd102c5a0                gpio_set_value
+
+.text.gpio_direction_output
+                0xd102c5e8       0x44
+ .text.gpio_direction_output
+                0xd102c5e8       0x44 obj\release\driver\gpio.o
+                0xd102c5e8                gpio_direction_output
+
+.text.startup.main
+                0xd102c62c       0x20
+ .text.startup.main
+                0xd102c62c       0x20 obj\release\main.o
+                0xd102c62c                main
+
+.text.ChipSelectSPI
+                0xd102c64c       0x5c
+ .text.ChipSelectSPI
+                0xd102c64c       0x5c obj\release\platform\platformconfig.o
+                0xd102c64c                ChipSelectSPI
+
+.rodata         0xd102c6a8       0x10
+ *(.rodata)
+ .rodata        0xd102c6a8       0x10 obj\release\driver\gpio.o
+
+.rodata.spi_command_set
+                0xd102c6b8       0x60
+ .rodata.spi_command_set
+                0xd102c6b8       0x60 obj\release\driver\spiflash.o
+                0xd102c6b8                spi_command_set
+
+.rodata.spi_devices
+                0xd102c718       0x60
+ .rodata.spi_devices
+                0xd102c718       0x60 obj\release\driver\spiflash.o
+                0xd102c718                spi_devices
+
+.rel.dyn        0xd102c778        0x0
+ .rel.iplt      0x00000000        0x0 obj\release\driver\spiflash.o
+                0xd102c778                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0xd102c778                . = ALIGN (0x4)
+                0xd102c778                __egot = .
+                0xd1023000                . = 0xd1023000
+                0xd1023000                . = ALIGN (0x4)
+                0xd1023000                __data_start = .
+
+.data
+ *(.data)
+                0xd1023000                __data_end = .
+
+.igot.plt       0xd1023000        0x0
+ .igot.plt      0x00000000        0x0 obj\release\driver\spiflash.o
+
+.data.spi_pins  0xd1023000       0x48
+ .data.spi_pins
+                0xd1023000       0x48 obj\release\platform\platformconfig.o
+                0xd1023000                spi_pins
+                0xd1023048                . = ALIGN (0x4)
+                0xd1023048                __bss_start = .
+
+.bss            0xd1023048       0xa8
+ *(.bss)
+ COMMON         0xd1023048       0xa8 obj\release\driver\spiflash.o
+                0xd1023048                FlashProp
+                0xd10230e8                pSPI_commands
+                0xd10230ec                SPI_ID
+                0xd10230f0                __bss_end = .
+                0xd10230f0                . = ALIGN (0x4)
+                0xd10230f0                .__topofcode__ = .
+                0x00000000                __data_size = (__data_end - __data_start)
+LOAD obj\release\driver\spiflash.o
+LOAD obj\release\driver\gpio.o
+LOAD obj\release\driver\uart.o
+LOAD obj\release\main.o
+LOAD obj\release\platform\platformconfig.o
+LOAD obj\release\platform\timer.o
+LOAD obj\release\platform\freq_config.o
+LOAD obj\release\platform\sdram_config.o
+LOAD obj\release\platform\sdram_support.o
+LOAD obj\release\startup\startup.o
+START GROUP
+LOAD c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a
+LOAD c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libc.a
+LOAD c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libg.a
+LOAD c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libm.a
+LOAD c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb\libnosys.a
+END GROUP
+OUTPUT(bin\Release\PXA168.elf elf32-littlearm)
+
+.bss.CurrentFlashBootType
+                0xd10230f0        0x1
+ .bss.CurrentFlashBootType
+                0xd10230f0        0x1 obj\release\driver\spiflash.o
+
+.debug_info     0x00000000     0x1676
+ .debug_info    0x00000000      0xcdd obj\release\driver\spiflash.o
+ .debug_info    0x00000cdd      0x50a obj\release\driver\gpio.o
+ .debug_info    0x000011e7      0x11d obj\release\main.o
+ .debug_info    0x00001304      0x301 obj\release\platform\platformconfig.o
+ .debug_info    0x00001605       0x71 obj\release\startup\startup.o
+
+.debug_abbrev   0x00000000      0x6a4
+ .debug_abbrev  0x00000000      0x2f9 obj\release\driver\spiflash.o
+ .debug_abbrev  0x000002f9      0x1b0 obj\release\driver\gpio.o
+ .debug_abbrev  0x000004a9       0x95 obj\release\main.o
+ .debug_abbrev  0x0000053e      0x152 obj\release\platform\platformconfig.o
+ .debug_abbrev  0x00000690       0x14 obj\release\startup\startup.o
+
+.debug_loc      0x00000000     0x111e
+ .debug_loc     0x00000000      0xace obj\release\driver\spiflash.o
+ .debug_loc     0x00000ace      0x3b8 obj\release\driver\gpio.o
+ .debug_loc     0x00000e86       0x20 obj\release\main.o
+ .debug_loc     0x00000ea6      0x278 obj\release\platform\platformconfig.o
+
+.debug_aranges  0x00000000      0x158
+ .debug_aranges
+                0x00000000       0x90 obj\release\driver\spiflash.o
+ .debug_aranges
+                0x00000090       0x50 obj\release\driver\gpio.o
+ .debug_aranges
+                0x000000e0       0x20 obj\release\main.o
+ .debug_aranges
+                0x00000100       0x38 obj\release\platform\platformconfig.o
+ .debug_aranges
+                0x00000138       0x20 obj\release\startup\startup.o
+
+.debug_ranges   0x00000000      0x348
+ .debug_ranges  0x00000000       0xe0 obj\release\driver\spiflash.o
+ .debug_ranges  0x000000e0      0x110 obj\release\driver\gpio.o
+ .debug_ranges  0x000001f0       0x10 obj\release\main.o
+ .debug_ranges  0x00000200      0x148 obj\release\platform\platformconfig.o
+
+.debug_line     0x00000000      0x700
+ .debug_line    0x00000000      0x3da obj\release\driver\spiflash.o
+ .debug_line    0x000003da      0x12a obj\release\driver\gpio.o
+ .debug_line    0x00000504       0x3e obj\release\main.o
+ .debug_line    0x00000542      0x125 obj\release\platform\platformconfig.o
+ .debug_line    0x00000667       0x99 obj\release\startup\startup.o
+
+.debug_str      0x00000000      0x82a
+ .debug_str     0x00000000      0x5f5 obj\release\driver\spiflash.o
+                                0x66d (size before relaxing)
+ .debug_str     0x000005f5      0x15b obj\release\driver\gpio.o
+                                0x229 (size before relaxing)
+ .debug_str     0x00000750       0x10 obj\release\main.o
+                                 0xf8 (size before relaxing)
+ .debug_str     0x00000760       0xca obj\release\platform\platformconfig.o
+                                0x1cc (size before relaxing)
+
+.comment        0x00000000       0x38
+ .comment       0x00000000       0x38 obj\release\driver\spiflash.o
+                                 0x39 (size before relaxing)
+ .comment       0x00000000       0x39 obj\release\driver\gpio.o
+ .comment       0x00000000       0x39 obj\release\main.o
+ .comment       0x00000000       0x39 obj\release\platform\platformconfig.o
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x2b obj\release\driver\spiflash.o
+ .ARM.attributes
+                0x0000002b       0x2b obj\release\driver\gpio.o
+ .ARM.attributes
+                0x00000056       0x2b obj\release\main.o
+ .ARM.attributes
+                0x00000081       0x2b obj\release\platform\platformconfig.o
+ .ARM.attributes
+                0x000000ac       0x1b obj\release\startup\startup.o
+ .ARM.attributes
+                0x000000c7       0x18 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000df       0x16 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0x334
+ .debug_frame   0x00000000      0x1bc obj\release\driver\spiflash.o
+ .debug_frame   0x000001bc       0xc0 obj\release\driver\gpio.o
+ .debug_frame   0x0000027c       0x28 obj\release\main.o
+ .debug_frame   0x000002a4       0x70 obj\release\platform\platformconfig.o
+ .debug_frame   0x00000314       0x20 c:/emblocks/2.30/share/em_armgcc/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb\libgcc.a(_udivsi3.o)
